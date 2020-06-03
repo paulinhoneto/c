@@ -1,61 +1,63 @@
-# Created by https://www.toptal.com/developers/gitignore/api/c
-# Edit at https://www.toptal.com/developers/gitignore?templates=c
+# Criado por https://www.toptal.com/developers/gitignore/api/c
+# Edite em https://www.toptal.com/developers/gitignore?templates=c
 
 ### C ###
-# Prerequisites
-*.d
+# Pré-requisitos
+* .d
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Arquivos de objeto
+* .o
+* .ko
+* .obj
+*.duende
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Saída do vinculador
+* .ilk
+*.mapa
+* .exp
 
-# Precompiled Headers
-*.gch
-*.pch
+# Cabeçalhos pré-compilados
+* .gch
+* .pch
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Bibliotecas
+* .lib
+*.uma
+* .la
+* .lo
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Objetos compartilhados (incluindo DLLs do Windows)
+* .dll
+*.tão
+*.tão.*
+* .dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Executáveis
+*.Exe
+*.Fora
+*.aplicativo
+* .i * 86
+* .x86_64
+* .hex
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Arquivos de depuração
+* .dSYM /
+* .su
+* .idb
+* .pdb
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
+# Resultados da compilação do módulo Kernel
+* .mod *
+* .cmd
+.tmp_versions /
 modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
 
-# Readme 
+# README.txt
 *.txt
+*.replit 
+*.gitignore
 
-# End of https://www.toptal.com/developers/gitignore/api/c
+# Fim de https://www.toptal.com/developers/gitignore/api/c
