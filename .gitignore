@@ -56,9 +56,15 @@ Mkfile.old
 dkms.conf
 
 # README.txt
+*.txt 
+
+# Arquivos executaveis
 *.exe
-*.txt
+
+# Arquivos de configuração do repl.it 
 *.replit 
+
+# Arquivos para ignorar do github
 *.gitignore
 
 # Fim de https://www.toptal.com/developers/gitignore/api/c
