@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <unistd.h>
 
-int main(){
+int main(int argc, char *argv[]){
   int a = 678; 
   float b = 12.3456; 
 
