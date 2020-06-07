@@ -22,7 +22,7 @@ void TwoDivF(float x, float y) {
 }
 
 void TwoDiv(int x, int y) {
-  printf("\nMultiplication result Integer = %d\n", x / y);
+  printf("\nDivision result Integer = %d\n", x / y);
 }
 
 void TwoAddL(long x, long y) {
@@ -38,14 +38,14 @@ void TwoAdd(int x, int y) {
 }
 
 void TwoSubL(long x, long y) {
-  printf("Subtration result Long = %ld\n", x - y);
+  printf("\nSubtration result Long = %ld\n", x - y);
 }
 
 void TwoSubF(float x, float y){
-  printf("Subtration result Float = %.2f\n\n", x - y);
+  printf("\nSubtration result Float = %.2f\n", x - y);
 }
 
 void TwoSub(int x, int y) {
-  printf("Subtration result = %d\n", x - y);
+  printf("\nSubtration result Integer = %d\n", x - y);
 }
 

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "calc.h"
+#include "calc.c"
 
 int main() {
   
@@ -17,6 +17,8 @@ int main() {
   TwoAddF(a, b);
   TwoSubF(a, b);
 
+  TwoDiv(x, y);
+  
   return EXIT_SUCCESS;
 }
 
