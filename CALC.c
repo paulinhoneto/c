@@ -18,32 +18,14 @@ int main() {
   TwoSubF(a, b);
 
   return EXIT_SUCCESS;
-
 }
 
-void TwoAdd(int x, int y) {
-  printf("\nAddition result = %d\n", x + y);
-}
 
-void TwoSub(int x, int y) {
-  printf("Subtration result = %d\n", x - y);
-}
 
-void TwoAddL(long z, long w) {
-  printf("\nAddition result Long = %ld\n", z + w);
-}
 
-void TwoSubL(long z, long w) {
-  printf("Subtration result Long = %ld\n", z - w);
-}
 
-void TwoAddF(float a, float b){
-  printf("\nAddition result Float = %.2f\n", a + b);
-}
 
-void TwoSubF(float a, float b){
-  printf("Subtration result Float = %.2f\n\n", a - b);
-}
+
 
 
 
